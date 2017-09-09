@@ -8,7 +8,7 @@ private:
 public:
 		void show();
 		void setNumGas(int, double);
-		inline int getNum() { return num; } // function of inline is automatically 
+		inline int getNum() { return num; } // function of inline is automatically , when using class
 		inline double getGas() { return gas; }
 };
 
