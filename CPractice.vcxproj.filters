@@ -27,5 +27,17 @@
     <ClCompile Include="LessonTest6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LessonTest7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LessonTest8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LessonTest9.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LessonTest9_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
