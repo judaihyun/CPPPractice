@@ -2,68 +2,72 @@
 using namespace std;
 
 class Car {
-private:
-		int num = 0;
-		double gas = 0;
+protected:
+		int num;
+		double gas;
 public:
-		void show();
-		void setNumGas(int, double);
-		inline int getNum() { return num; } // function of inline is automatically , when using class
-		inline double getGas() { return gas; }
+	Car();
+	void setCar(int n, double g);
+	virtual void show();
 };
+
+class RacingCar : public Car {
+private:
+	int course;
+public:
+	RacingCar();
+	virtual void setCourse(int c);
+	void show();
+};
+
+Car::Car() {
+	num = 0;
+	gas = 0.0;
+	cout << "car was made." << endl;
+}
+
+void Car::setCar(int n, double g) {
+	num = n;
+	gas = g;
+	cout << " car number is " << num << ", gas is " << gas << endl;
+}
 
 void Car::show() {
 	cout << "car number : " << num << endl;
 	cout << "car's gas : " << gas << endl;
 }
 
-void Car::setNumGas(int n, double g) {
-	if (g > 0 && g < 1000) {
-		num = n;
-		gas = g;
-		cout << "Car number is " << num << ", Gas is " << gas << " changed." << endl;
-	}
-	else {
-		cout << g << "is incorrect gas value " << endl;
-	}
-	
+RacingCar::RacingCar() {
+	course = 0;
+	cout << "racing car was made" << endl;
+}
+void RacingCar::setCourse(int c) {
+	course = c;
+	cout << " course number : " << course << endl;
 }
 
-void buy(Car& c);
+void RacingCar::show() {
+	cout << "racing car number is " << num << endl;
+	cout << "gas is " << gas << endl;
+	cout << "course number is " << course << endl;
+}
 
 int main() {
 
-	Car* pCar;
+	Car* pCars[2];
 
+	Car car1;
+	RacingCar rccar1;
 
+	pCars[0] = &car1;
+	pCars[0]->setCar(1234, 20.5);
 
+	pCars[1] = &rccar1;
+	pCars[1]->setCar(4567, 30.5);
+	pCars[1]->setCourse();
 
-	/*
-	Car* pCar;
-	pCar = new Car;
-
-	pCar->num = 4321;
-	pCar->gas = 50.2;
-
-	pCar->show();
-	delete pCar;
-	*/
-
-	pCar = new Car;
-	pCar->setNumGas(4321, 980.5);
-	buy(*pCar);
-	delete pCar;
-
-
-
+	for (int i = 0; i < 2; i++)
+		pCars[i]->show();
 
 	return 0;
-}
-
-
-void buy(Car& c) {
-	int n = c.getNum();
-	double g = c.getGas();
-	cout << "car number : " << n << endl;
-	cout << "car's gas : " << g << endl;
 }

@@ -1,45 +1,27 @@
-#include <iostream>
+#include "myfunc.h"
 
-using namespace std;
+struct Car {
+	int num;
+	double gas;
+};
 
-int length(char* str);
-int count(char str[], char ch);
+void show(Car& c);
 
 int main() {
 
-	char* pT;
-	pT = new char;
-
-	char search;
-	int num;
-
-	cout << "input character\n";
-	cin >> pT;
-	cout << "What's character searching for?" << endl;
-	cin >> search;
+	Car car1 = { 0, 0.0 };
 	
-	num = count(pT, search);
-	cout << "count : " << num << endl;
+	cout << "input car num" << endl;
+	cin >> car1.num;
+
+	cout << "input car gas" << endl;
+	cin >> car1.gas;
+
+	show(car1);
+
 	return 0;
 }
 
-int count(char str[], char ch) {
-	int i = 0;
-	int c = 0;
-	while (str[i] != '\0') {
-		if (str[i] == ch)
-			c++;
-
-		i++;
-	}
-	return c;
-}
-
-int length(char* str) {
-
-	int i = 0;
-	for (int size = 0; str[size] != '\0'; size++) {
-		i++;
-	}
-	return i;
+void show(Car& x) {
+	cout << "car num is " << x.num << ", gas is " << x.gas << endl;
 }
