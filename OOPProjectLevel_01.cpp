@@ -5,7 +5,9 @@ using namespace std;
 
 void ShowMenu();
 void MakeAccount();
-
+void DepositMoney();
+int IdChecker(int);
+void WithdrawMoney();
 void ShowAllAccInfo();
 
 struct Account {
@@ -18,7 +20,6 @@ Account accArr[100];
 int accNum = 0;
 
 int main() {
-
 	while(true){
 		ShowMenu();
 
@@ -31,6 +32,9 @@ int main() {
 		{
 		case 1:
 			MakeAccount();
+			break;
+		case 2:
+			DepositMoney();
 			break;
 		case 4:
 			ShowAllAccInfo();
@@ -45,9 +49,42 @@ int main() {
 	return 0;
 }
 
+void WithdrawMoney() {
+
+}
+
+int IdChecker(int i) {
+	int a;
+	for (a = 0; a < 100; a++) {
+		if (accArr[a].accID == i) {
+			return a;
+		}
+	}
+	return -1;
+}
+
+void DepositMoney() {
+
+	int accId, bal;
+	int checkId;
+
+	cout << "[입금]" << endl;
+	cout << "계좌ID: "; cin >> accId;
+
+	if ( (checkId=IdChecker(accId)) == -1) {
+		cout << "미 존재 계좌 ID " << endl;
+	}
+
+	cout << "입금액: "; cin >> bal; 
+	accArr[checkId].balance += bal;
+	cout << "입금완료" << endl;
+
+}
+
 void ShowAllAccInfo() {
 	for (int i = 0; i < 100; i++) {
 		if (accArr[i].accID != 0) {
+			cout << "------------------------------" << endl;
 			cout << "계좌ID: " << accArr[i].accID << endl;
 			cout << "NAME: " << accArr[i].cusName << endl;
 			cout << "Balance: " << accArr[i].balance << endl;
