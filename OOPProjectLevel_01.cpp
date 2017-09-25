@@ -73,9 +73,15 @@ void DepositMoney() {
 
 	if ( (checkId=IdChecker(accId)) == -1) {
 		cout << "미 존재 계좌 ID " << endl;
+		DepositMoney();
 	}
 
+
 	cout << "입금액: "; cin >> bal; 
+	if (0 >= bal) {
+		cout << "0원 이상만 입금됩니다." << endl;
+		DepositMoney();
+	}
 	accArr[checkId].balance += bal;
 	cout << "입금완료" << endl;
 
@@ -95,8 +101,8 @@ void ShowAllAccInfo() {
 
 void MakeAccount() {
 
-	int accId, bal;
-	char name[20];
+	//int accId, bal;
+	//char name[20];
 
 	cout << "[계좌계설]" << endl;
 	cout << "계좌ID: "; cin >> accArr[accNum].accID;
