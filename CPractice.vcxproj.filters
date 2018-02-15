@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\NewFilter1">
       <UniqueIdentifier>{c89c85d7-6070-4183-a13d-5779f227dd32}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\baekjoon">
+      <UniqueIdentifier>{2ce7be75-683b-4e52-8aec-13ee41e36297}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OOPProjectLevel_01.cpp">
@@ -104,6 +107,15 @@
     </ClCompile>
     <ClCompile Include="04-2.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructor1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1924.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2839.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
