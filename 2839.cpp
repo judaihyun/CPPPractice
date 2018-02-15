@@ -3,10 +3,6 @@
 class Sugar {
 private:
 	int input;
-	int Kilo5 = 0;
-	int Kilo3 = 0;
-	int remain = 0;
-	int sum = 0;
 public:
 	void setInput() {
 		int num;
@@ -21,6 +17,7 @@ public:
 };
 
 void Sugar::calc() {
+	int sum = 0;
 	
 	while (true) {
 
