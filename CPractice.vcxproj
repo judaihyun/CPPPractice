@@ -221,6 +221,7 @@
     <ClCompile Include="OOPProjectLevel_01.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="OOPProjectLevel_02.cpp" />
     <ClCompile Include="RacingCarClassBase.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
