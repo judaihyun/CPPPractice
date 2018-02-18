@@ -8,36 +8,28 @@ int main() {
 
 	cin >> a >> b >> c;
 
-	if (a >= b) {
-		if (a >= c) {
-			if (b >= c) {
-				temp = b;
-			}
-			else {
-				temp = c;
-			}
-		}
-	}
-	else if (b >= c) {
-		if (b >= a) {
-			if (c >= a) {
-				temp = c;
-			}
-			else {
-				temp = a;
-			}
-		}
-	}
-	else if (a >= c) {
+	if (a >= b && a >= c) {
 		if (b >= c) {
 			temp = b;
 		}
-		else if(b >= c) {
-			if (a >= c) {
-				temp = c;
-			}
-		}
+		else
+			temp = c;
 	}
+	else if (b >= a && b >= c) {
+		if (a >= c) {
+			temp = a;
+		}
+		else
+			temp = c;
+	}
+	else if (c >= a && c >= b) {
+		if (a >= b) {
+			temp = a;
+		}
+		else
+			temp = b;
+	}
+
 
 	cout << temp << endl;
 
