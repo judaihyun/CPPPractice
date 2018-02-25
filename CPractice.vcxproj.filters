@@ -19,11 +19,20 @@
     <Filter Include="소스 파일\baekjoon">
       <UniqueIdentifier>{2ce7be75-683b-4e52-8aec-13ee41e36297}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\grammar">
+      <UniqueIdentifier>{7ee6baa6-734b-429c-a93d-9070e780112d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\grammar\chapter6">
+      <UniqueIdentifier>{fee1b55f-5398-4f19-9dee-2a1bd2d61924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\grammar\chapter7">
+      <UniqueIdentifier>{504eff4c-3f95-4350-83d5-0037b3c30ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\grammar\chapter8">
+      <UniqueIdentifier>{74be30cf-322b-40d4-b7c6-6571f8d04c79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OOPProjectLevel_01.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="FunctionOverloading01_2.cpp">
       <Filter>소스 파일\NewFilter1</Filter>
     </ClCompile>
@@ -63,54 +72,6 @@
     <ClCompile Include="Sample13.cpp">
       <Filter>소스 파일\NewFilter1</Filter>
     </ClCompile>
-    <ClCompile Include="02-1 call-by-reference.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="02-1_3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RefReturnTwo.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RefPtr.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="02-2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NewDelete.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="02-3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="03-1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RacingCarClassBase.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Car.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RacingMain.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="03-2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Cal.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Encaps1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="04-2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Constructor1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1924.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
@@ -123,23 +84,11 @@
     <ClCompile Include="11720.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
-    <ClCompile Include="OOPProjectLevel_02.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ClassInit.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="11721.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
     <ClCompile Include="10817.cpp">
       <Filter>소스 파일\baekjoon</Filter>
-    </ClCompile>
-    <ClCompile Include="ShallowCopyError.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="04-3_2.cpp">
-      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="10871.cpp">
       <Filter>소스 파일\baekjoon</Filter>
@@ -153,19 +102,169 @@
     <ClCompile Include="9498.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="1110.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="8393.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="02-1 call-by-reference.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="02-1_3.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="02-2.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="02-3.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="03-1.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="03-2.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="04-2.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="04-3_2.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Cal.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassInit.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Constructor1.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="Encaps1.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="IKnowTempObj.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDelete.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPProjectLevel_01.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPProjectLevel_02.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPProjectLevel_03.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="PassObjCopycon.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingCarClassBase.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="RacingMain.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="RefPtr.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="RefReturnTwo.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnObjCopycon.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnObjDeadTime.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="ShallowCopyError.cpp">
+      <Filter>소스 파일\grammar</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstObject.cpp">
+      <Filter>소스 파일\grammar\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstOverloading.cpp">
+      <Filter>소스 파일\grammar\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFriendClass.cpp">
+      <Filter>소스 파일\grammar\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="4673.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="UnivStudentinheri.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivCreOrder.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivDestOrder.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="07-1_1[call of constructor and inheritance].cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="07-1_2.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectedHeri.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="ISAInheritance.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="HASInheritance.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="HASComposite.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="07-2_1.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="07-2_2.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="07-2_2_another.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPProjectLevel_05.cpp">
+      <Filter>소스 파일\grammar\chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager2.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager3.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverride.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager4.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="08-1.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Cal.h">
-      <Filter>소스 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Point.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="myfunc.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Cal.h">
+      <Filter>소스 파일\grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>소스 파일\grammar</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
