@@ -297,19 +297,19 @@
       <Filter>소스 파일\grammar</Filter>
     </ClInclude>
     <ClInclude Include="Account.h">
-      <Filter>소스 파일\grammar\chapter9</Filter>
-    </ClInclude>
-    <ClInclude Include="BankingCommonDecl.h">
-      <Filter>소스 파일\grammar\chapter9</Filter>
-    </ClInclude>
-    <ClInclude Include="AccountHandler.h">
-      <Filter>소스 파일\grammar\chapter9</Filter>
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="NormalAccount.h">
-      <Filter>소스 파일\grammar\chapter9</Filter>
+      <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="HighCreditAccount.h">
-      <Filter>소스 파일\grammar\chapter9</Filter>
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BankingCommonDecl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
