@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\grammar\chapter8">
       <UniqueIdentifier>{74be30cf-322b-40d4-b7c6-6571f8d04c79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\grammar\chapter9">
+      <UniqueIdentifier>{7910b00a-0d83-4a08-aee7-bfdd78091d0f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionOverloading01_2.cpp">
@@ -252,6 +255,33 @@
     <ClCompile Include="08-1.cpp">
       <Filter>소스 파일\grammar\chapter8</Filter>
     </ClCompile>
+    <ClCompile Include="VirtualDestructor.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceAttribute.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPProjectLevel_06.cpp">
+      <Filter>소스 파일\grammar\chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="RealObjUnder1.cpp">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="ReaObjUnder2.cpp">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualInternalcpp.cpp">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="BankingSystemMain.cpp">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountHandler.cpp">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Point.h">
@@ -265,6 +295,21 @@
     </ClInclude>
     <ClInclude Include="Car.h">
       <Filter>소스 파일\grammar</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="BankingCommonDecl.h">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler.h">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAccount.h">
+      <Filter>소스 파일\grammar\chapter9</Filter>
+    </ClInclude>
+    <ClInclude Include="HighCreditAccount.h">
+      <Filter>소스 파일\grammar\chapter9</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
