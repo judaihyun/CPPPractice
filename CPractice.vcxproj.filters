@@ -34,6 +34,21 @@
     <Filter Include="소스 파일\grammar\chapter9">
       <UniqueIdentifier>{7910b00a-0d83-4a08-aee7-bfdd78091d0f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\grammar\chapter10">
+      <UniqueIdentifier>{9ea68464-b5f5-4367-904c-6c3cc2275b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\grammar\chapter11">
+      <UniqueIdentifier>{633bc276-9cd7-447a-9e3c-21f9cba5d8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\grammar\chapter12">
+      <UniqueIdentifier>{487bb704-8340-44e8-869f-9f988944c9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\grammar\chapter13">
+      <UniqueIdentifier>{865f3966-c102-4b80-adba-a0adb766dd8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\grammar\chapter14">
+      <UniqueIdentifier>{1b3466cb-70cd-42a4-81d9-9f9dd71b553b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionOverloading01_2.cpp">
@@ -282,14 +297,152 @@
     <ClCompile Include="AccountHandler.cpp">
       <Filter>소스 파일\grammar\chapter9</Filter>
     </ClCompile>
-    <ClCompile Include="1065.cpp">
+    <ClCompile Include="1065_sequence.cpp">
       <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="OverloadingOperation.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="GFunctionOverloadingcpp.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="10-1_1.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="OneOpndOverloading.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="10-2.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="PostOpndOverloading.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="PointMultipleOperation.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="CommuMultipleOperation.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleOutput.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="PointConsoleOutput.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="10-3.cpp">
+      <Filter>소스 파일\grammar\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstOperationOverloading.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="AssignShallowCopyError.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="InheritAssignOperation.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="1152_wordCount.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2577.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="11-1_1.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="11-1_2.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ImproveInit.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayClass.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="8958.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="2920.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="StableConstArryProb.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="StablePointObjArray.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="11-2_1.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="11-2_2.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="STDString.cpp">
+      <Filter>소스 파일\grammar\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="StringClass.cpp">
+      <Filter>소스 파일\grammar\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPProjectLevel_09.cpp">
+      <Filter>소스 파일\grammar\chapter12</Filter>
+    </ClCompile>
+    <ClCompile Include="AddFunctionTemplate.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-1_1.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="13-1_2.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialFunctionTemplate.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="PointClassTemplate.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="PointClassTemplateFuncDef.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="PointTEmplate.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="PointMain.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="10039.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="15552.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDeleteOverloading.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerOperatorOverloading.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="Functor.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="SortFUnctor.cpp">
+      <Filter>소스 파일\grammar\chapter11</Filter>
+    </ClCompile>
+    <ClCompile Include="13-2.cpp">
+      <Filter>소스 파일\grammar\chapter13</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>소스 파일\grammar\chapter14</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundArrayMain.cpp">
+      <Filter>소스 파일\grammar\chapter14</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Point.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="myfunc.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -313,6 +466,15 @@
     </ClInclude>
     <ClInclude Include="AccountHandler.h">
       <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayTemplate.h">
+      <Filter>소스 파일\grammar\chapter14</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>소스 파일\grammar\chapter14</Filter>
+    </ClInclude>
+    <ClInclude Include="PointTemplate.h">
+      <Filter>소스 파일\grammar\chapter14</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

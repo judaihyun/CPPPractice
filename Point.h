@@ -1,21 +1,17 @@
 #ifndef __POINT_H_
 #define __POINT_H_
-#include "myfunc.h"
+
+#include <iostream>
+using namespace std;
 
 class Point
 {
 private:
-	int xpos, ypos;
+	int xpos_, ypos_;
 public:
-	void Init(int x, int y){
-		xpos = x;
-		ypos = y;
-	}
+	Point(int x = 0, int y = 0);
+	friend ostream& operator<<(ostream& os, const Point& pos);
 
-	void ShowPointInfo() const
-	{
-		cout << "[" << xpos << ", " << ypos << "]" << endl;
-	}
 };
 
 #endif
