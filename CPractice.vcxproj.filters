@@ -58,6 +58,18 @@
     <Filter Include="소스 파일\STL">
       <UniqueIdentifier>{8235c91e-d818-4955-825d-02d2eeec724a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\principle">
+      <UniqueIdentifier>{a35b3733-cfd3-412f-aca1-7fe72b237198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\principle\chapter4">
+      <UniqueIdentifier>{04b0e251-00e8-4401-81de-eb77b59fae36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\dataStructure\chapter5">
+      <UniqueIdentifier>{a98ac9c0-4816-4bf3-a527-f4bc3991b3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\dataStructure\chapter6">
+      <UniqueIdentifier>{32af6a30-0bc7-4ae3-bbba-9be2e65fafce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionOverloading01_2.cpp">
@@ -525,11 +537,53 @@
     <ClCompile Include="1193.cpp">
       <Filter>소스 파일\baekjoon</Filter>
     </ClCompile>
+    <ClCompile Include="prepareCode.cpp">
+      <Filter>소스 파일\dataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedList.cpp">
+      <Filter>소스 파일\dataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="ListP.c">
+      <Filter>소스 파일\dataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging.cpp">
+      <Filter>소스 파일\dataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="tempUsingVactor.cpp">
+      <Filter>소스 파일\principle\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="practice.cpp">
+      <Filter>소스 파일\principle\chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="asdfasdf.cpp">
+      <Filter>소스 파일\dataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="pracitce1.cpp">
+      <Filter>소스 파일\dataStructure\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ListPcpp.cpp">
+      <Filter>소스 파일\dataStructure\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="pracitce20.cpp">
+      <Filter>소스 파일\dataStructure\chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StackA.c">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StackP.c">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StackA.cpp">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StackL.cpp">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="2750.cpp">
+      <Filter>소스 파일\baekjoon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="myfunc.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="Cal.h">
       <Filter>소스 파일\grammar</Filter>
     </ClInclude>
@@ -562,6 +616,39 @@
     </ClInclude>
     <ClInclude Include="ListA.h">
       <Filter>소스 파일\dataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="ListP.h">
+      <Filter>소스 파일\dataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="std_lib_facilities.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Simple_window.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fltk.h">
+      <Filter>리소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCpp.h">
+      <Filter>소스 파일\dataStructure\chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StackA.h">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StackP.h">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAcpp.h">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StackL.h">
+      <Filter>소스 파일\dataStructure\chapter6</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
