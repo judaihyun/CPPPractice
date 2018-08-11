@@ -47,14 +47,5 @@ int main() {
 		cout << "?" << endl;
 
 
-
-	/*
-	int i = 0;
-	while (i < 26) {
-		cout << result[i];
-		i++;
-	}
-	*/
-
 	return 0;
 }
